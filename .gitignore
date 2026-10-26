@@ -1,0 +1,28 @@
+# 本地环境配置
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# 前端
+node_modules/
+dist/
+coverage/
+
+# 数据库
+*.db
+*.db-*
+*.sqlite*
+backend/data/
+
+# 临时文件
+*.log
+.DS_Store
+Thumbs.db
