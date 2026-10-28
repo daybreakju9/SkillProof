@@ -1,0 +1,92 @@
+.jobs-page {
+  min-height: 100vh;
+  padding: 48px 24px;
+  background: #f8f6fd;
+}
+
+.jobs-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.jobs-back {
+  padding: 0;
+  border: 0;
+  color: #7042d6;
+  background: transparent;
+  cursor: pointer;
+}
+
+.jobs-tag {
+  margin: 54px 0 12px;
+  color: #794cde;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.jobs-content h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.jobs-desc,
+.job-card p {
+  color: #70738c;
+  line-height: 1.7;
+}
+
+.job-card {
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid #e9e4f4;
+  border-radius: 16px;
+  background: white;
+}
+
+.job-label {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #f0eafa;
+  color: #7042d6;
+  font-size: 12px;
+}
+
+.job-card h2 {
+  margin: 22px 0 8px;
+}
+
+.job-card h3 {
+  margin: 28px 0 14px;
+  font-size: 15px;
+}
+
+.job-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.job-card li {
+  padding: 9px 12px;
+  border-radius: 8px;
+  background: #f6f3fc;
+  color: #665487;
+  font-size: 14px;
+}
+
+.job-card .job-status {
+  margin-top: 26px;
+  font-size: 14px;
+}
+
+.job-card button {
+  padding: 12px 25px;
+  border: 0;
+  border-radius: 8px;
+  background: #e7e3ee;
+  color: #817c8c;
+  cursor: not-allowed;
+}
