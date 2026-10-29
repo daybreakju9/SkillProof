@@ -56,27 +56,6 @@
   margin: 22px 0 8px;
 }
 
-.job-card h3 {
-  margin: 28px 0 14px;
-  font-size: 15px;
-}
-
-.job-card ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 0;
-  list-style: none;
-}
-
-.job-card li {
-  padding: 9px 12px;
-  border-radius: 8px;
-  background: #f6f3fc;
-  color: #665487;
-  font-size: 14px;
-}
-
 .job-card .job-status {
   margin-top: 26px;
   font-size: 14px;
