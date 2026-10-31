@@ -186,6 +186,12 @@
   color: #7048c8;
 }
 
+.primary-button:disabled,
+.secondary-button:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
 .divider {
   margin: 23px 0;
   color: #999bb1;
